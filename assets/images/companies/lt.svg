@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
-        <rect width="400" height="120" rx="20" fill="#0a192f" />
-        <circle cx="75" cy="60" r="38" fill="#004B87" stroke="#FFB81C" stroke-width="4"/>
-        <text x="75" y="68" font-family="'Plus Jakarta Sans', Inter, sans-serif" font-size="28" font-weight="900" fill="#FFB81C" text-anchor="middle" letter-spacing="1">L&amp;T</text>
-        <text x="135" y="58" font-family="'Plus Jakarta Sans', Inter, sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" letter-spacing="0.5">LARSEN &amp; TOUBRO</text>
-        <text x="135" y="82" font-family="'Plus Jakarta Sans', Inter, sans-serif" font-size="16" font-weight="600" fill="#64B5F6" letter-spacing="1">ENGINEERING &amp; TECH</text>
-    </svg>

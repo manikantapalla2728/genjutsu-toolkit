@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
-        <rect width="400" height="120" rx="20" fill="#111111" />
-        <rect x="40" y="32" width="60" height="56" rx="8" fill="#F7FF14" />
-        <text x="70" y="72" font-family="'Impact', sans-serif" font-size="34" font-weight="900" fill="#000000" text-anchor="middle">DZ</text>
-        <text x="120" y="72" font-family="'Impact', sans-serif" font-size="48" font-weight="900" fill="#FFFFFF" letter-spacing="4">DAZN</text>
-    </svg>
