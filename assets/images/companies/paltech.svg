@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+        <rect width="400" height="120" rx="20" fill="#161922" />
+        <circle cx="70" cy="60" r="28" fill="#FF3366"/>
+        <text x="70" y="68" font-family="'Plus Jakarta Sans', Inter, sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">P</text>
+        <text x="120" y="70" font-family="'Plus Jakarta Sans', Inter, sans-serif" font-size="38" font-weight="900" fill="#FFFFFF">pal<tspan fill="#FF3366">tech</tspan></text>
+    </svg>

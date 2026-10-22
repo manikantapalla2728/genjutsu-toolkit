@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+        <rect width="400" height="120" rx="20" fill="#11162b" />
+        <circle cx="65" cy="60" r="26" fill="#00519E" />
+        <circle cx="85" cy="60" r="20" fill="#672D8B" fill-opacity="0.8" />
+        <text x="125" y="70" font-family="'Plus Jakarta Sans', Inter, sans-serif" font-size="38" font-weight="900" fill="#FFFFFF">experian<tspan fill="#672D8B">.</tspan></text>
+    </svg>

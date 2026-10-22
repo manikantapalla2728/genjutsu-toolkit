@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+        <rect width="400" height="120" rx="20" fill="#1a1410" />
+        <path d="M45 75 C60 40, 85 40, 95 75" fill="none" stroke="#FF5800" stroke-width="8" stroke-linecap="round"/>
+        <circle cx="70" cy="40" r="9" fill="#0046AD"/>
+        <text x="120" y="70" font-family="'Plus Jakarta Sans', Inter, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF" letter-spacing="1">NOVARTIS</text>
+    </svg>

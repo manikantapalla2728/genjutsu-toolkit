@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+        <rect width="400" height="120" rx="20" fill="#180d28" />
+        <path d="M50 45 L85 60 L50 75" fill="none" stroke="#A100FF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="115" y="72" font-family="'Plus Jakarta Sans', Inter, sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" letter-spacing="-1">accenture</text>
+        <circle cx="330" cy="50" r="7" fill="#A100FF" />
+    </svg>
