@@ -8,6 +8,25 @@
 
   const PROMPTS = {
     original: 'In the reference <<<video_1>>> Instead of 1st girl charecter who in the middle replace the <<<image_1>>> ,instead of 2nd girl who in the right side charecter replace the <<<image_2>>> , instead of 3rd girl left side charecter replace the <<<image_3>>>',
+    positionGuide: `To swap characters accurately, ensure your replacement photos match the positions of the 3 subjects in the reference video:
+
+<<<image_1>>>
+Upload Hero Character
+Middle Character
+Target: 1st Girl (Center)
+Wearing sunglasses in center. Upload your primary hero character photo into Image Slot 1.
+
+<<<image_2>>>
+Upload Right Character
+Right Character
+Target: 2nd Girl (Screen Right)
+Standing on the screen-right side. Upload second character photo into Image Slot 2.
+
+<<<image_3>>>
+Upload Left Character
+Left Character
+Target: 3rd Girl (Screen Left)
+Standing on the screen-left side. Upload third character photo into Image Slot 3.`,
     enhanced: 'In reference video <<<video_1>>>, replace the middle girl with <<<image_1>>>, replace the girl on the right with <<<image_2>>>, and replace the girl on the left with <<<image_3>>>. Maintain seamless motion transfer, realistic lighting, and exact camera angles.'
   };
 
@@ -19,6 +38,7 @@
   const mobileCopyBtn = document.getElementById('mobileCopyBtn');
   const promptDisplayBox = document.getElementById('promptDisplayBox');
   const tabOriginal = document.getElementById('tabOriginalPrompt');
+  const tabPositionGuide = document.getElementById('tabPositionGuidePrompt');
   const tabEnhanced = document.getElementById('tabEnhancedPrompt');
   const downloadVideoBtn = document.getElementById('downloadVideoBtn');
   const toastContainer = document.getElementById('toastContainer');
@@ -130,8 +150,19 @@
       tabOriginal.addEventListener('click', () => {
         activePromptKey = 'original';
         tabOriginal.classList.add('active');
+        if (tabPositionGuide) tabPositionGuide.classList.remove('active');
         if (tabEnhanced) tabEnhanced.classList.remove('active');
         renderPromptText(PROMPTS.original);
+      });
+    }
+
+    if (tabPositionGuide) {
+      tabPositionGuide.addEventListener('click', () => {
+        activePromptKey = 'positionGuide';
+        tabPositionGuide.classList.add('active');
+        if (tabOriginal) tabOriginal.classList.remove('active');
+        if (tabEnhanced) tabEnhanced.classList.remove('active');
+        renderPromptText(PROMPTS.positionGuide);
       });
     }
 
@@ -140,6 +171,7 @@
         activePromptKey = 'enhanced';
         tabEnhanced.classList.add('active');
         if (tabOriginal) tabOriginal.classList.remove('active');
+        if (tabPositionGuide) tabPositionGuide.classList.remove('active');
         renderPromptText(PROMPTS.enhanced);
       });
     }
