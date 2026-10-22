@@ -67,7 +67,7 @@ Open PowerShell in `d:\new content` and run:
 git add .
 git commit -m "feat: update to Skill Circuit Genjutsu toolkit with comment keyword GENJUTSU"
 git branch -M main
-git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/genjutsu-toolkit.git
+git remote add origin https://github.com/manikantapalla2728/genjutsu-toolkit.git
 git push -u origin main
 ```
 
@@ -81,7 +81,7 @@ git push -u origin main
 
 Your live site will be ready at:
 ```text
-https://<YOUR_GITHUB_USERNAME>.github.io/genjutsu-toolkit/
+https://manikantapalla2728.github.io/genjutsu-toolkit/
 ```
 
 ---
@@ -101,7 +101,7 @@ Whenever someone comments on your Reel requesting the tools or prompt, send them
    Hey! 🔥 Thanks for your comment!
 
    Here are all the sources to make the viral character swap video:
-   👉 https://<YOUR_GITHUB_USERNAME>.github.io/genjutsu-toolkit/
+   👉 https://manikantapalla2728.github.io/genjutsu-toolkit/
 
    Inside you will find:
    ✅ The 20s reference video (1-click download)
