@@ -1,20 +1,20 @@
-# PSY — Viral AI Video Creation Kit & Sources
+# GENJUTSU — Viral AI Character Swap Toolkit & Sources
 
 A high-performance, mobile-first companion resource page built for **[@skill_circuit](https://instagram.com/skill_circuit)**. 
 
-This page serves as the direct link sent via Instagram automated direct messages whenever followers comment on your viral **"PSY" 3-Character Genjutsu Video** Reel.
+This page serves as the direct link sent via Instagram automated direct messages whenever followers comment **"GENJUTSU"** on your viral 3-Character Genjutsu Video Reel.
 
 ---
 
 ## 🎯 What This Kit Contains
 
 1. **GENJUTSU AI Tools**:
-   - **Higgsfield AI**: Dedicated motion transfer model for multi-character swaps.
+   - **Skill Circuit Genjutsu (Higgsfield AI)**: Dedicated motion transfer model for multi-character swaps.
    - **Pollo AI (Recast Tool)**: Alternative motion transfer and character replacement tool.
 2. **Downloadable Reference Video (`<<<video_1>>>`)**:
-   - The exact 20.17-second high-definition choreography clip (`reference_video.mp4`) ready for in-browser playback and 1-click download.
+   - The exact 20.17-second high-definition choreography clip (`Genjutsu_reference_video.mp4`) ready for in-browser playback and 1-click download.
 3. **Character Position Mapping (`<<<image_1>>>`, `<<<image_2>>>`, `<<<image_3>>>`)**:
-   - **Middle Character (`<<<image_1>>>`)**: Girl in center with sunglasses.
+   - **Middle Character (`<<<image_1>>>`)**: Girl in center with sunglasses (Primary hero slot).
    - **Right Character (`<<<image_2>>>`)**: Girl on screen-right.
    - **Left Character (`<<<image_3>>>`)**: Girl on screen-left in green jacket.
 4. **Interactive Prompt Kit (1-Click Copy)**:
@@ -37,16 +37,14 @@ This page serves as the direct link sent via Instagram automated direct messages
 d:/new content/
 ├── index.html                   # Mobile-first semantic single-page web app
 ├── styles.css                   # Obsidian/Lime viral creator design system
-├── script.js                    # 1-click copy engine, prompt tabs & toast feedback
+├── script.js                    # 1-click copy engine, interactive slots & toast feedback
 ├── README.md                    # Setup, GitHub Pages deployment & Instagram automation
 ├── .gitignore                   # Clean git ignore configuration
 └── assets/
     ├── images/
     │   ├── reference_poster.jpg # Video poster thumbnail
-    │   ├── higgsfield_genjutsu.jpg # Screenshot of Higgsfield Genjutsu tool
-    │   ├── char_1_middle.jpg    # Middle girl position crop (Image 1)
-    │   ├── char_2_right.jpg     # Right girl position crop (Image 2)
-    │   └── char_3_left.jpg      # Left girl position crop (Image 3)
+    │   ├── higgsfield_genjutsu.jpg # Screenshot of Genjutsu tool
+    │   └── logo.png             # Brand mark
     └── videos/
         └── reference_video.mp4  # 20-second reference video for character swap
 ```
@@ -59,7 +57,7 @@ You can host this entire site for free using GitHub Pages:
 
 ### Step 1: Create a GitHub Repository
 1. Log in to [github.com/new](https://github.com/new).
-2. Repository name: `psy-video-toolkit` (or `sources`).
+2. Repository name: `genjutsu-toolkit` (or `sources`).
 3. Set visibility to **Public** and click **Create repository**.
 
 ### Step 2: Push the Files
@@ -67,9 +65,9 @@ Open PowerShell in `d:\new content` and run:
 
 ```bash
 git add .
-git commit -m "feat: complete PSY viral AI video creation toolkit"
+git commit -m "feat: update to Skill Circuit Genjutsu toolkit with comment keyword GENJUTSU"
 git branch -M main
-git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/psy-video-toolkit.git
+git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/genjutsu-toolkit.git
 git push -u origin main
 ```
 
@@ -83,7 +81,7 @@ git push -u origin main
 
 Your live site will be ready at:
 ```text
-https://<YOUR_GITHUB_USERNAME>.github.io/psy-video-toolkit/
+https://<YOUR_GITHUB_USERNAME>.github.io/genjutsu-toolkit/
 ```
 
 ---
@@ -96,20 +94,20 @@ Whenever someone comments on your Reel requesting the tools or prompt, send them
 1. Open [ManyChat](https://manychat.com) and connect your `@skill_circuit` Instagram account.
 2. Go to **Automation** &rarr; **New Flow**.
 3. Choose Trigger: **"User comments on your Post or Reel"**.
-4. Select your viral **PSY** Reel.
-5. Set keywords: `PSY`, `PROMPT`, `TOOLS`, `LINK`, `VIDEO`, `SWAP`.
+4. Select your viral **Genjutsu** Reel.
+5. Set keyword: **`GENJUTSU`** (plus optional aliases: `PROMPT`, `SWAP`, `TOOLS`).
 6. Set the Automated DM message:
    ```text
    Hey! 🔥 Thanks for your comment!
 
-   Here are all the sources to recreate the video:
-   👉 https://<YOUR_GITHUB_USERNAME>.github.io/psy-video-toolkit/
+   Here are all the sources to make the viral character swap video:
+   👉 https://<YOUR_GITHUB_USERNAME>.github.io/genjutsu-toolkit/
 
    Inside you will find:
-   ✅ The 20s reference video (direct download)
-   ✅ 1-click copy of the exact Genjutsu prompt
+   ✅ The 20s reference video (1-click download)
+   ✅ 1-click copy of the exact Skill Circuit Genjutsu prompt
    ✅ Direct links to Higgsfield AI & Pollo AI
-   ✅ Position guide for all 3 characters
+   ✅ Interactive upload guide for all 3 character slots
 
    Tag @skill_circuit when you post your video so we can repost it! 🚀
    ```

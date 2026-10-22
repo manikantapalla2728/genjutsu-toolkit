@@ -1,5 +1,5 @@
 /**
- * PSY — VIRAL AI VIDEO CREATION TOOLKIT ENGINE
+ * SKILL CIRCUIT GENJUTSU — VIRAL AI VIDEO CREATION TOOLKIT ENGINE
  * 1-click clipboard copy, prompt switching, video download helpers, and toast alerts.
  */
 
