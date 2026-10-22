@@ -182,32 +182,6 @@ Standing on the screen-left side. Upload third character photo into Image Slot 3
       });
     }
 
-    // Interactive Character Slot Upload Previews
-    [1, 2, 3].forEach(slotNum => {
-      const box = document.getElementById(`slotBox${slotNum}`);
-      const input = document.getElementById(`fileInput${slotNum}`);
-      const preview = document.getElementById(`previewImg${slotNum}`);
-
-      if (box && input && preview) {
-        box.addEventListener('click', () => {
-          input.click();
-        });
-
-        input.addEventListener('change', (e) => {
-          const file = e.target.files[0];
-          if (file) {
-            const reader = new FileReader();
-            reader.onload = (loadEvent) => {
-              preview.src = loadEvent.target.result;
-              preview.style.display = 'block';
-              showToast(`Character ${slotNum} photo loaded!`);
-            };
-            reader.readAsDataURL(file);
-          }
-        });
-      }
-    });
-
     // Keyboard shortcut (Ctrl + C when prompt box is focused)
     if (promptDisplayBox) {
       promptDisplayBox.addEventListener('click', () => {
